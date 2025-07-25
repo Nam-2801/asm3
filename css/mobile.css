@@ -1,0 +1,166 @@
+@media (max-width:27em) {
+
+    .title{
+        font-size: 4.2rem;
+    }
+
+    /* NAVIGATION */
+
+    .main-nav{
+        padding: 3.2rem 0;
+    }
+
+    .main-nav-list{
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+        text-transform: uppercase;
+        gap: 3.2rem;
+    }
+
+    .main-nav-link{
+        border: none;
+    }
+
+    /* INFOMATION */
+
+    .infomation{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.8rem;
+    }
+
+    .target,
+    .info{
+        padding-top: 8rem;
+    }
+
+    /* REMUSE */
+
+    .remuse{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:3.2rem;
+        /* padding: 6.4rem 0 20rem 3rem; */
+        line-height: 1.7;
+        margin: 3rem;
+
+    }
+
+    .job-box{
+        margin-bottom: 0;
+        gap: 3.2rem;
+        box-shadow: none;
+        font-size: 2.4rem;
+        padding: 3.2rem 1.2rem;
+    }
+    
+    /* .exp,
+    .edu,
+    .act,
+    .hobby,
+    .lang,
+    .skill{
+        box-shadow: none;
+        font-size: 2.4rem;
+        padding: 3.2rem 0;
+        height: auto;
+    } */
+
+    .present{
+        border-radius: 20px;
+        font-size: 1.8rem;
+    }
+
+
+    .hobby-text{
+        text-align: center;
+    }
+
+    .hobby-icon{
+        height: 5.2rem;
+        width: 5.2rem;
+    }
+
+    /* AWARD */
+
+    .certificate-box{
+        grid-template-columns: 1fr;
+        font-size: 2rem;
+    }
+
+    .cer-1{
+        border-right: none;
+    }
+
+    .cer-2{
+        padding-left: 0;
+    }
+
+    .cer-img{
+        height: 22rem;
+        width: 44rem;
+    }
+
+    .cer-name{
+        font-size: 2rem;
+        width: 27rem;
+    }
+
+    /* ASSIGNMENT */
+
+    .asm{
+        margin: 4rem 2rem;
+    }
+
+    .projects{
+        flex-direction: column;
+    }
+
+    .pro-img{
+        height: 25rem;
+        width: 49.7rem;
+    }
+    
+    .pro-text{
+        width: 50rem;
+        padding: 0 2rem;
+    }
+
+
+    .pro-name{
+        font-size: 2.4rem;
+        padding: 1rem 0;
+    }
+
+    .role{
+        display: grid;
+        font-size: 1.8rem;
+        gap: 1.2rem;
+    }
+
+    .pro-icon{
+        height: 2.4rem;
+        width: 2.4rem;
+    }
+
+    .year{
+        margin-right: 50rem;
+        padding:0 1rem ;
+        border-radius: 13px;
+    }
+
+    .footer{
+        padding: 4.8rem 0 6.4rem 0;
+    }
+
+    .descbribe{
+        font-size: 1.8rem;
+    }
+
+    .link{
+        font-size: 2.4rem;
+    }
+
+}
+
